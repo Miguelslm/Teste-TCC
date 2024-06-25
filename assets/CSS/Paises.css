@@ -290,6 +290,19 @@ h5 {
         width: 450px;
     }
 
+    #radio1:checked ~ .first {
+        margin-left: 1%;
+    }
+    #radio2:checked ~ .first {
+        margin-left: -32%;
+    }
+    #radio3:checked ~ .first {
+        margin-left: -97%;
+    }
+    #radio4:checked ~ .first {
+        margin-left: -297%;
+    }
+
     .manual-navigation,
     .navigation-auto {
         width: 100%;
