@@ -198,3 +198,130 @@ h5 {
     width: 25px;
 }
 
+@media (max-width: 1024px) {
+    .Breadcrumb-title {
+        font-size: 35px;
+    }
+
+    .slider {
+        width: 600px;
+        height: 300px;
+    }
+
+    .slide img {
+        width: 600px;
+    }
+
+    .manual-navigation,
+    .navigation-auto {
+        width: 600px;
+    }
+
+    .info-box {
+        width: 90%;
+        padding: 15px 30px;
+    }
+
+    .info-item {
+        flex-direction: column; /* Mantém em coluna */
+        padding: 10px;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    .label, .value {
+        font-size: 1.1rem;
+    }
+
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 768px) {
+    .Breadcrumb-title {
+        font-size: 30px;
+        margin-top: 80px;
+    }
+
+    .breadcrumb-subtitle {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    h5{
+        position: relative;
+        right: 15px;
+        font-size: 1.7rem;
+        margin-top: 5px;
+    }
+
+    .submit {
+        left: 10px;
+        font-size: 1.5rem;
+        width: 90%;
+    }
+
+    .text-story {
+        left: 10px;
+        font-size: 0.9rem;
+        width: 90%;
+    }
+
+    .slider {
+        width: 100%;
+        height: 200px;
+    }
+
+    .slides {
+        height: 200px;
+    }
+
+    .slide {
+        width: 100%;
+    }
+
+    .slide img {
+        width: 450px;
+    }
+
+    #radio1:checked ~ .first {
+        margin-left: 1%;
+    }
+    #radio2:checked ~ .first {
+        margin-left: -32%;
+    }
+    #radio3:checked ~ .first {
+        margin-left: -97%;
+    }
+    #radio4:checked ~ .first {
+        margin-left: -297%;
+    }
+
+    .manual-navigation,
+    .navigation-auto {
+        width: 100%;
+    }
+
+    .navigation-auto {
+        margin-top: 160px;
+    }
+
+    .info-box {
+        position: relative;
+        left: 25px;
+        width: 80%;
+        padding: 10px 20px;
+    }
+
+    .info-item {
+        flex-direction: column; /* Mantém em coluna */
+        padding: 8px;
+    }
+
+
+    .label, .value {
+        font-size: 1rem;
+    }
+
+}
