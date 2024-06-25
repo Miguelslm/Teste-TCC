@@ -1,0 +1,132 @@
+.carousel-container-card {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px 50px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    color: black;
+}
+
+.carousel-card {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    width: 250px;
+    min-width: 250px;
+    margin: 0 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateX(10px);
+}
+
+.card-image img {
+    width: 60px;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.card-content p {
+    color: #555;
+}
+
+
+/* Responsividade para telas menores (celulares) */
+
+@media (max-width: 1600px) {
+    .carousel-container-card {
+        padding: 5px 45px;
+    }
+    .card {
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 1366px) {
+
+    .carousel-container-card {
+        padding: 5px 40px;
+    }
+    .card {
+        min-width: 230px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .carousel-container-card {
+        padding: 5px 30px;
+    }
+    .card {
+        min-width: 210px;
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel-container-card {
+        padding: 5px 20px;
+    }
+    .card {
+        min-width: 190px;
+    }
+}
+
+@media (max-width: 900px) {
+    .carousel-container-card {
+        padding: 5px 10px;
+    }
+    .carousel-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+    .card-content {
+        padding: 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-container-card {
+        padding: 5px;
+    }
+    .carousel-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        min-width: 90%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-content {
+        padding: 15px;
+    }
+    .card-content h2 {
+        font-size: 1.2em;
+    }
+    .card-content p {
+        font-size: 0.9em;
+    }
+}
