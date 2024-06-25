@@ -1,11 +1,3 @@
-.Sub-title {
-    color: #0c1129;
-    position: relative;
-    top: 5rem;
-    left: 60px; /* causa do conflito */
-    width: 80%;
-    font-size: 2rem;
-}
 
 .card-container-one{
     display: flex;

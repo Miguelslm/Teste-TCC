@@ -1,23 +1,5 @@
 
-.Breadcrumb-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    color: var(--main-color);
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-}
 
-.breadcrumb-subtitle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    color: var(--main-color);
-    font-size: 1.1rem;
-    font-family: 'Poppins', sans-serif;
-}
 
 span{
     color: var(--segund-color);
