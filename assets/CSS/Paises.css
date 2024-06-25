@@ -250,8 +250,6 @@ h5 {
     }
 
     h5{
-        position: relative;
-        right: 15px;
         font-size: 1.7rem;
         margin-top: 5px;
     }
@@ -306,6 +304,8 @@ h5 {
     .navigation-auto {
         margin-top: 160px;
     }
+
+
 
     .info-box {
         position: relative;
